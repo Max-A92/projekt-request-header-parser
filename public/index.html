@@ -28,6 +28,8 @@
             padding: 20px;
             border-radius: 6px;
             margin: 20px 0;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
         }
         .example h3 {
             margin-top: 0;
@@ -38,6 +40,19 @@
             padding: 2px 6px;
             border-radius: 3px;
             font-family: monospace;
+            word-break: break-all;
+            white-space: pre-wrap;
+        }
+        pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            max-width: 100%;
+            overflow-x: auto;
+        }
+        pre code {
+            white-space: pre-wrap;
+            word-break: normal;
         }
         .api-link {
             display: inline-block;
